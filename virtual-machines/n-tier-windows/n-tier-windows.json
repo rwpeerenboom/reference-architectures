@@ -133,7 +133,7 @@
                         "namePrefix": "jb",
                         "size": "Standard_DS2_v2",
                         "adminUsername": "testadminuser",
-                        "adminPassword": "[replace-with-password]",
+                        "adminPassword": "[S3rv1c3N0w2019]",
                         "virtualNetwork": {
                             "name": "ra-ntier-vnet"
                         },
@@ -183,7 +183,7 @@
                         "namePrefix": "ad",
                         "size": "Standard_DS3_v2",
                         "adminUserName": "adminUser",
-                        "adminPassword": "[replace-with-password]",
+                        "adminPassword": "[S3rv1c3N0w2019]",
                         "nics": [
                             {
                                 "subnetName": "ad",
@@ -234,11 +234,11 @@
                                             "ReplicationFrequency": 10,
                                             "AdminCreds": {
                                                 "UserName": "adminUser",
-                                                "Password": "[replace-with-password]"
+                                                "Password": "[S3rv1c3N0w2019]"
                                             },
                                             "SafeModeAdminCreds": {
                                                 "UserName": "testsafeadminuser",
-                                                "Password": "[replace-with-safe-mode-password]"
+                                                "Password": "[S3rv1c3N0w2019]"
                                             }
                                         }
                                     }
@@ -349,11 +349,11 @@
                                             "PrimaryDcIpAddress": "10.0.4.4",
                                             "AdminCreds": {
                                                 "UserName": "adminUser",
-                                                "Password": "[replace-with-password]"
+                                                "Password": "[S3rv1c3N0w2019]"
                                             },
                                             "SafeModeAdminCreds": {
                                                 "UserName": "testsafeadminuser",
-                                                "Password": "[replace-with-safe-password]"
+                                                "Password": "[S3rv1c3N0w2019]"
                                             }
                                         }
                                     }
@@ -445,7 +445,7 @@
                             "size": "Standard_DS12_v2",
                             "computerNamePrefix": "sql",
                             "adminUsername": "adminUser",
-                            "adminPassword": "[replace-with-password]",
+                            "adminPassword": "[S3rv1c3N0w2019]",
                             "osType": "windows",
                             "imageReference": {
                                 "offer": "SQL2017-WS2016",
@@ -492,7 +492,7 @@
                                         "Options": 3
                                     },
                                     "protectedSettings": {
-                                        "Password": "[replace-with-password]"
+                                        "Password": "[S3rv1c3N0w2019]"
                                     }
                                 }
                             ]
@@ -503,7 +503,7 @@
                             "size": "Standard_DS1_v2",
                             "computerNamePrefix": "web",
                             "adminUsername": "adminUser",
-                            "adminPassword": "[replace-with-password]",
+                            "adminPassword": "[S3rv1c3N0w2019]",
                             "virtualNetwork": {
                                 "name": "ra-ntier-vnet"
                             },
@@ -533,7 +533,7 @@
                                         "Options": 3
                                     },
                                     "protectedSettings": {
-                                        "Password": "[replace-with-password]"
+                                        "Password": "[S3rv1c3N0w2019]"
                                     }
                                 }
                             ],
@@ -609,7 +609,7 @@
                             "size": "Standard_DS1_v2",
                             "computerNamePrefix": "biz",
                             "adminUsername": "adminUser",
-                            "adminPassword": "[replace-with-password]",
+                            "adminPassword": "[S3rv1c3N0w2019]",
                             "virtualNetwork": {
                                 "name": "ra-ntier-vnet"
                             },
@@ -641,7 +641,7 @@
                                         "Options": 3
                                     },
                                     "protectedSettings": {
-                                        "Password": "[replace-with-password]"
+                                        "Password": "[S3rv1c3N0w2019]"
                                     }
                                 }
                             ],
